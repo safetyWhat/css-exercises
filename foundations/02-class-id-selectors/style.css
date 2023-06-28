@@ -1,0 +1,19 @@
+.odds {
+    background-color: #f08080;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+.evens {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#num2 {
+    color: #00f;
+    font-size: 35px;
+}
+#num4 {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
+.odds.middle-man {
+    font-size: 26px;
+}
