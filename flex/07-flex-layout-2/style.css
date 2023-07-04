@@ -1,29 +1,75 @@
+* {
+  /*border: 2px solid red; */
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  align-items: stretch;
+}
+
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 32px;
+  padding: 32px;
+  align-items: stretch;
 }
 
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .footer {
+  display: flex;
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
+  display: flex;
   width: 300px;
+  min-width: 300px;
+  padding: 16px;
   background: royalblue;
   box-sizing: border-box;
+  align-items: stretch;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  max-width: 350px;
+  padding: 8px;
 }
